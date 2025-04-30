@@ -5,12 +5,13 @@ nav_order: 1
 
 # High-Quality Resources for DSA, Aptitude, and Interview Preparation
 
-For MCSE students at Jadavpur University preparing for roles in FAANG, quant firms, startups, and consulting, below is a comprehensive list of top-notch training resources. The list is organized by category and includes GitHub repositories, websites, YouTube channels, and blogs. Each resource is described with its focus and indicated level (Beginner, Intermediate, Advanced).
+For CS/IT students at Jadavpur University preparing for roles in FAANG, quant firms, startups, and consulting, below is a comprehensive list of top-notch training resources. The list is organized by category and includes GitHub repositories, websites, YouTube channels, and blogs. Each resource is described with its focus and indicated level (Beginner, Intermediate, Advanced).
 
 ---
 
 ## Data Structures and Algorithms (DSA)
 
+- [Ravindrababu Ravula – Algorithms Playlist (YouTube)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IeHYw_sfBOJ6gk5pie0yP-0) – Clear and detailed lectures on algorithms, ideal for GATE and interviews. (Intermediate)
 - [GeeksforGeeks](https://geeksforgeeks.org) – One of the most popular sites for learning DSA and core CS topics. (Beginner to Intermediate)
 - [LeetCode](https://leetcode.com) – A leading platform for practicing coding problems with editorials. (Intermediate)
 - [takeUforward (YouTube)](https://www.youtube.com/@takeUforward) – Curated playlists on DSA and interview questions by a Google SDE. (Beginner to Intermediate)
@@ -19,6 +20,16 @@ For MCSE students at Jadavpur University preparing for roles in FAANG, quant fir
 - [The Algorithms (GitHub)](https://github.com/TheAlgorithms) – A repository of classic algorithms in multiple programming languages. (Intermediate)
 - [Programiz](https://programiz.com) – Beginner-friendly tutorials on data structures and algorithms. (Beginner)
 - [MIT OpenCourseWare 6.006](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/) – MIT's free course on algorithms. (Intermediate to Advanced)
+- [Coding Interview University (GitHub)](https://github.com/jwasham/coding-interview-university) – A complete self-study CS curriculum for aspiring software engineers. (Beginner to Advanced)
+- [Tech Interview Handbook (GitHub)](https://github.com/yangshun/tech-interview-handbook) – A highly structured guide to technical and behavioral interview prep. (Intermediate)
+- [LeetCode Patterns (GitHub)](https://github.com/SeanPrashad/leetcode-patterns) – Interview problem sets grouped by common algorithmic patterns. (Intermediate)
+- [JavaScript Algorithms (GitHub)](https://github.com/trekhleb/javascript-algorithms) – DSA implementations with readable explanations in JavaScript. (Intermediate)
+- [labuladong’s Algorithm Book (GitHub)](https://github.com/labuladong/fucking-algorithm/tree/english) – Deep dives into dynamic programming and hard problems with intuition-focused guides. (Advanced)
+- [William Fiset (YouTube)](https://www.youtube.com/@WilliamFiset-videos) – Detailed tutorials on advanced data structures like tries, segment trees, etc. (Advanced)
+- [Back To Back SWE (YouTube)](https://www.youtube.com/@BackToBackSWE) – Top-tier problem walkthroughs with whiteboard-style explanations. (Intermediate)
+- [Nick White (YouTube)](https://www.youtube.com/@NickWhite) – Real-time coding of LeetCode-style interview problems. (Beginner to Intermediate)
+- [Tushar Roy (YouTube)](https://www.youtube.com/@tusharroy2525) – Step-by-step tutorials on popular algorithms and design problems. (Intermediate)
+- [Cracking FAANG (YouTube)](https://www.youtube.com/@CrackingFAANG) – Interview-focused DSA content from a Meta engineer. (Intermediate)
 
 ---
 
