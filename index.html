@@ -1,92 +1,328 @@
-<h1 id="high-quality-resources-for-dsa-aptitude-and-interview-preparation">High-Quality Resources for DSA, Aptitude, and Interview Preparation</h1>
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
 
-<p>For CS/IT students at Jadavpur University preparing for roles in FAANG, quant firms, startups, and consulting, below is a comprehensive list of top-notch training resources. The list is organized by category and includes GitHub repositories, websites, YouTube channels, and blogs. Each resource is described with its focus and indicated level (Beginner, Intermediate, Advanced).</p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Top-notch DSA, aptitude, and interview prep resources curated for CS/IT students at Jadavpur University and beyond. Includes YouTube playlists, GitHub repositories, and more.">
+  <meta name="keywords"
+    content="DSA, Coding Interviews, Aptitude, Logical Reasoning, Competitive Programming, Jadavpur University, FAANG, GATE, Tech Interview, Quant Prep, Algorithms">
+  <meta name="author" content="Sreetam Ganguly">
+  <title>DSA, Aptitude & Interview Prep | JU CS/IT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding-top: 4rem;
+    }
 
-<hr />
+    .section-header {
+      cursor: pointer;
+    }
 
-<h2 id="data-structures-and-algorithms-dsa">Data Structures and Algorithms (DSA)</h2>
+    .theme-toggle {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      z-index: 999;
+    }
+  </style>
+</head>
 
-<ul>
-  <li><a href="https://www.youtube.com/playlist?list=PLEbnTDJUr_IeHYw_sfBOJ6gk5pie0yP-0">Ravindrababu Ravula – Algorithms Playlist (YouTube)</a> – Clear and detailed lectures on algorithms, ideal for GATE and interviews. (Intermediate)</li>
-  <li><a href="https://geeksforgeeks.org">GeeksforGeeks</a> – One of the most popular sites for learning DSA and core CS topics. (Beginner to Intermediate)</li>
-  <li><a href="https://leetcode.com">LeetCode</a> – A leading platform for practicing coding problems with editorials. (Intermediate)</li>
-  <li><a href="https://www.youtube.com/@takeUforward">takeUforward (YouTube)</a> – Curated playlists on DSA and interview questions by a Google SDE. (Beginner to Intermediate)</li>
-  <li><a href="https://www.youtube.com/@NeetCode">NeetCode (YouTube)</a> – Walkthroughs of LeetCode problems with clear explanations. (Intermediate)</li>
-  <li><a href="https://www.youtube.com/results?search_query=abdul+bari+data+structures">Abdul Bari (YouTube)</a> – Clear algorithm lectures using whiteboard-style teaching. (Beginner)</li>
-  <li><a href="https://github.com/TheAlgorithms">The Algorithms (GitHub)</a> – A repository of classic algorithms in multiple programming languages. (Intermediate)</li>
-  <li><a href="https://programiz.com">Programiz</a> – Beginner-friendly tutorials on data structures and algorithms. (Beginner)</li>
-  <li><a href="https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/">MIT OpenCourseWare 6.006</a> – MIT’s free course on algorithms. (Intermediate to Advanced)</li>
-  <li><a href="https://github.com/jwasham/coding-interview-university">Coding Interview University (GitHub)</a> – A complete self-study CS curriculum for aspiring software engineers. (Beginner to Advanced)</li>
-  <li><a href="https://github.com/yangshun/tech-interview-handbook">Tech Interview Handbook (GitHub)</a> – A highly structured guide to technical and behavioral interview prep. (Intermediate)</li>
-  <li><a href="https://github.com/SeanPrashad/leetcode-patterns">LeetCode Patterns (GitHub)</a> – Interview problem sets grouped by common algorithmic patterns. (Intermediate)</li>
-  <li><a href="https://github.com/trekhleb/javascript-algorithms">JavaScript Algorithms (GitHub)</a> – DSA implementations with readable explanations in JavaScript. (Intermediate)</li>
-  <li><a href="https://github.com/labuladong/fucking-algorithm/tree/english">labuladong’s Algorithm Book (GitHub)</a> – Deep dives into dynamic programming and hard problems with intuition-focused guides. (Advanced)</li>
-  <li><a href="https://www.youtube.com/@WilliamFiset-videos">William Fiset (YouTube)</a> – Detailed tutorials on advanced data structures like tries, segment trees, etc. (Advanced)</li>
-  <li><a href="https://www.youtube.com/@BackToBackSWE">Back To Back SWE (YouTube)</a> – Top-tier problem walkthroughs with whiteboard-style explanations. (Intermediate)</li>
-  <li><a href="https://www.youtube.com/@NickWhite">Nick White (YouTube)</a> – Real-time coding of LeetCode-style interview problems. (Beginner to Intermediate)</li>
-  <li><a href="https://www.youtube.com/@tusharroy2525">Tushar Roy (YouTube)</a> – Step-by-step tutorials on popular algorithms and design problems. (Intermediate)</li>
-  <li><a href="https://www.youtube.com/@CrackingFAANG">Cracking FAANG (YouTube)</a> – Interview-focused DSA content from a Meta engineer. (Intermediate)</li>
-</ul>
+<body>
+  <div class="theme-toggle">
+    <button class="btn btn-outline-secondary btn-sm" id="themeToggle">Toggle Dark Mode</button>
+  </div>
 
-<hr />
+  <div class="container">
+    <header class="mb-4">
+      <h1 class="text-center">High-Quality Resources for DSA, Aptitude, and Interview Preparation</h1>
+      <p class="lead text-center">For CS/IT students at Jadavpur University aiming for roles in FAANG, quant firms,
+        startups, and consulting. Contributions welcome on <a href="https://gitb.sgy.co.in/Coding-and-Training"
+          target="_blank">GitHub</a>!</p>
+    </header>
 
-<h2 id="quantitative-aptitude-and-logical-reasoning">Quantitative Aptitude and Logical Reasoning</h2>
+    <div class="accordion" id="resourceAccordion">
 
-<ul>
-  <li><a href="https://indiabix.com">IndiaBix</a> – Bank of aptitude and logical reasoning problems with solutions. (Beginner to Intermediate)</li>
-  <li><a href="https://geeksforgeeks.org/aptitude">GeeksforGeeks – Aptitude</a> – Step-by-step aptitude tutorials and quizzes. (Beginner to Intermediate)</li>
-  <li><a href="https://brilliant.org">Brilliant.org</a> – Interactive platform for math and logic skills. (Beginner to Advanced)</li>
-  <li><a href="https://www.youtube.com/@CareerRide">CareerRide (YouTube)</a> – Concise video tutorials on aptitude and reasoning. (Beginner)</li>
-  <li><a href="https://www.youtube.com/@5MinuteEngineering">5-Minute Engineering (YouTube)</a> – Short videos on aptitude topics. (Beginner)</li>
-  <li><a href="https://www.janestreet.com/puzzles/">Jane Street Puzzle Archive</a> – Monthly puzzles and brainteasers from a trading firm. (Intermediate)</li>
-</ul>
+      <!-- DSA -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingDSA">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDSA"
+            aria-expanded="true" aria-controls="collapseDSA">
+            📚 Data Structures and Algorithms (DSA)
+          </button>
+        </h2>
+        <div id="collapseDSA" class="accordion-collapse collapse show" aria-labelledby="headingDSA"
+          data-bs-parent="#resourceAccordion">
+          <div class="accordion-body">
+            <ul class="list-group">
+              <li class="list-group-item"><strong><a
+                    href="https://www.youtube.com/playlist?list=PLEbnTDJUr_IeHYw_sfBOJ6gk5pie0yP-0">Ravindrababu
+                    Ravula</a></strong> – Clear algorithm lectures ideal for GATE and interviews. (Intermediate)</li>
+              <li class="list-group-item"><strong><a href="https://geeksforgeeks.org">GeeksforGeeks</a></strong> –
+                Comprehensive site for DSA and CS topics. (Beginner to Intermediate)</li>
+              <li class="list-group-item"><strong><a href="https://leetcode.com">LeetCode</a></strong> – Practice
+                problems with editorials. (Intermediate)</li>
+              <li class="list-group-item"><strong><a
+                    href="https://www.youtube.com/@takeUforward">takeUforward</a></strong> – DSA playlists by a Google
+                SDE. (Beginner to Intermediate)</li>
+              <li class="list-group-item"><strong><a href="https://www.youtube.com/@NeetCode">NeetCode</a></strong> –
+                LeetCode walkthroughs with clarity. (Intermediate)</li>
+              <li class="list-group-item"><strong><a
+                    href="https://www.youtube.com/results?search_query=abdul+bari+data+structures">Abdul
+                    Bari</a></strong> – Whiteboard-style teaching. (Beginner)</li>
+              <li class="list-group-item"><strong><a href="https://github.com/TheAlgorithms">The Algorithms
+                    (GitHub)</a></strong> – Classic algorithms in many languages. (Intermediate)</li>
+              <li class="list-group-item"><strong><a href="https://programiz.com">Programiz</a></strong> –
+                Beginner-friendly tutorials. (Beginner)</li>
+              <li class="list-group-item"><strong><a
+                    href="https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/">MIT OCW
+                    6.006</a></strong> – Renowned algorithm course. (Intermediate to Advanced)</li>
+              <li class="list-group-item"><strong><a
+                    href="https://github.com/jwasham/coding-interview-university">Coding Interview
+                    University</a></strong> – Complete self-study CS curriculum. (Beginner to Advanced)</li>
+              <li class="list-group-item"><strong><a href="https://github.com/yangshun/tech-interview-handbook">Tech
+                    Interview Handbook</a></strong> – Coding + behavioral guide. (Intermediate)</li>
+              <li class="list-group-item"><strong><a href="https://github.com/SeanPrashad/leetcode-patterns">LeetCode
+                    Patterns</a></strong> – Problem sets by algorithm type. (Intermediate)</li>
+              <li class="list-group-item"><strong><a href="https://github.com/trekhleb/javascript-algorithms">JavaScript
+                    Algorithms</a></strong> – With clear explanations. (Intermediate)</li>
+              <li class="list-group-item"><strong><a
+                    href="https://github.com/labuladong/fucking-algorithm/tree/english">labuladong’s Book</a></strong> –
+                Deep dives into tough problems. (Advanced)</li>
+              <li class="list-group-item"><strong><a href="https://www.youtube.com/@WilliamFiset-videos">William
+                    Fiset</a></strong> – Tutorials on advanced DS. (Advanced)</li>
+              <li class="list-group-item"><strong><a href="https://www.youtube.com/@BackToBackSWE">Back To Back
+                    SWE</a></strong> – Top-tier problem explanations. (Intermediate)</li>
+              <li class="list-group-item"><strong><a href="https://www.youtube.com/@NickWhite">Nick White</a></strong> –
+                Live coding of interview problems. (Beginner to Intermediate)</li>
+              <li class="list-group-item"><strong><a href="https://www.youtube.com/@tusharroy2525">Tushar
+                    Roy</a></strong> – Algorithm and design walkthroughs. (Intermediate)</li>
+              <li class="list-group-item"><strong><a href="https://www.youtube.com/@CrackingFAANG">Cracking
+                    FAANG</a></strong> – Interview prep by Meta engineer. (Intermediate)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-<hr />
+      <!-- Deep Learning & LLMs -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingDL">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseDL" aria-expanded="false" aria-controls="collapseDL">
+            🧠 Deep Learning & LLMs
+          </button>
+        </h2>
+        <div id="collapseDL" class="accordion-collapse collapse" aria-labelledby="headingDL"
+          data-bs-parent="#resourceAccordion">
+          <div class="accordion-body">
+            <ul class="list-group">
+              <li class="list-group-item"><strong><a
+                    href="https://www.youtube.com/playlist?list=PLyqSpQzTE6M9gCgajvQbc68Hk_JKGBAYT">DL - IIT Madras
+                    (Part 1)</a></strong>: Fundamentals of deep learning. (Intermediate to Advanced)</li>
+              <li class="list-group-item"><strong><a
+                    href="https://www.youtube.com/playlist?list=PLyqSpQzTE6M-_1jAqrFCsgCcuTYm_2urp">DL - IIT Madras
+                    (Part 2)</a></strong>: Advanced concepts. (Advanced)</li>
+              <li class="list-group-item"><strong><a
+                    href="https://youtube.com/playlist?list=PLZ2ps__7DhBbaMNZoyW2Hizl8DG6ikkjo">Intro to
+                    LLMs</a></strong>: Architecture & training. (Intermediate to Advanced)</li>
+              <li class="list-group-item"><strong><a
+                    href="https://youtube.com/playlist?list=PLPTV0NXA_ZShwsiq5QdMwED8i5gg5qEGA">Hands-on
+                    LLMs</a></strong>: Implementation-focused content. (Advanced)</li>
+              <li class="list-group-item"><strong><a
+                    href="https://youtube.com/playlist?list=PLyqSpQzTE6M8X3Veh5ijSQ2UGFFEZIpKf">Modern Computer Vision |
+                    IIT Madras</a></strong>: DL-based vision systems, object detection & more. (Intermediate to
+                Advanced)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-<h2 id="interview-preparation-behavioral--technical">Interview Preparation (Behavioral + Technical)</h2>
+      <!-- Internet of Things (IoT) -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingIoT">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseIoT" aria-expanded="false" aria-controls="collapseIoT">
+            🌐 Internet of Things (IoT)
+          </button>
+        </h2>
+        <div id="collapseIoT" class="accordion-collapse collapse" aria-labelledby="headingIoT"
+          data-bs-parent="#resourceAccordion">
+          <div class="accordion-body">
+            <ul class="list-group">
+              <li class="list-group-item"><strong><a
+                    href="https://youtube.com/playlist?list=PLgMDNELGJ1CaBrefq-0eYatfOnoncW0y-" target="_blank">Design
+                    for IoT</a></strong>: System design and project-based learning for IoT. (Beginner to Intermediate)
+              </li>
+              <li class="list-group-item"><strong><a href="https://youtube.com/@techiesms"
+                    target="_blank">techiesms</a></strong>: Practical IoT videos, automation, and project building.
+                (Beginner to Intermediate)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-<ul>
-  <li><em>Cracking the Coding Interview</em> (Book) – 200+ coding and behavioral questions with STAR approach. (Intermediate)</li>
-  <li><a href="https://techinterviewhandbook.org">Tech Interview Handbook</a> – In-depth guide to coding and behavioral interviews. (Intermediate)</li>
-  <li><a href="https://github.com/jwasham/coding-interview-university">Coding Interview University (GitHub)</a> – Self-taught CS interview prep roadmap. (Beginner to Advanced)</li>
-  <li><a href="https://interviewbit.com">InterviewBit</a> – Gamified platform for coding, puzzles, and SQL prep. (Intermediate)</li>
-  <li><a href="https://github.com/donnemartin/system-design-primer">System Design Primer (GitHub)</a> – Concepts and patterns for system design interviews. (Intermediate to Advanced)</li>
-  <li><a href="https://pramp.com">Pramp</a> – Peer-to-peer live mock interviews. (Intermediate)</li>
-  <li><a href="https://glassdoor.com">Glassdoor</a> – Interview questions and reviews by company. (Intermediate)</li>
-  <li><a href="https://www.youtube.com/@ByteByteGo">ByteByteGo (YouTube)</a> – Animated system design walkthroughs by Alex Xu. (Intermediate)</li>
-</ul>
+      <!-- Quantitative Aptitude & Logical Reasoning -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingAptitude">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseAptitude" aria-expanded="false" aria-controls="collapseAptitude">
+            📊 Quantitative Aptitude & Logical Reasoning
+          </button>
+        </h2>
+        <div id="collapseAptitude" class="accordion-collapse collapse" aria-labelledby="headingAptitude"
+          data-bs-parent="#resourceAccordion">
+          <div class="accordion-body">
+            <ul class="list-group">
+              <li class="list-group-item"><strong><a href="https://indiabix.com">IndiaBix</a></strong> – Huge archive of
+                aptitude Qs. (Beginner to Intermediate)</li>
+              <li class="list-group-item"><strong><a href="https://geeksforgeeks.org/aptitude">GFG Aptitude</a></strong>
+                – Step-by-step tutorials. (Beginner to Intermediate)</li>
+              <li class="list-group-item"><strong><a href="https://brilliant.org">Brilliant</a></strong> – Logic and
+                math challenges. (Beginner to Advanced)</li>
+              <li class="list-group-item"><strong><a href="https://www.youtube.com/@CareerRide">CareerRide</a></strong>
+                – Concise videos. (Beginner)</li>
+              <li class="list-group-item"><strong><a href="https://www.youtube.com/@5MinuteEngineering">5-Minute
+                    Engineering</a></strong> – Quick aptitude lessons. (Beginner)</li>
+              <li class="list-group-item"><strong><a href="https://www.janestreet.com/puzzles/">Jane Street
+                    Puzzles</a></strong> – Monthly brainteasers. (Intermediate)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-<hr />
+      <!-- Interview Prep -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingInterview">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseInterview" aria-expanded="false" aria-controls="collapseInterview">
+            💼 Interview Preparation (Behavioral + Technical)
+          </button>
+        </h2>
+        <div id="collapseInterview" class="accordion-collapse collapse" aria-labelledby="headingInterview"
+          data-bs-parent="#resourceAccordion">
+          <div class="accordion-body">
+            <ul class="list-group">
+              <li class="list-group-item"><strong>Cracking the Coding Interview</strong> – The classic book.
+                (Intermediate)</li>
+              <li class="list-group-item"><strong><a href="https://techinterviewhandbook.org">Tech Interview
+                    Handbook</a></strong> – Technical & behavioral prep. (Intermediate)</li>
+              <li class="list-group-item"><strong><a href="https://github.com/jwasham/coding-interview-university">CIU
+                    (GitHub)</a></strong> – End-to-end prep roadmap. (Beginner to Advanced)</li>
+              <li class="list-group-item"><strong><a href="https://interviewbit.com">InterviewBit</a></strong> –
+                Gamified practice. (Intermediate)</li>
+              <li class="list-group-item"><strong><a href="https://github.com/donnemartin/system-design-primer">System
+                    Design Primer</a></strong> – Must-read for SDIs. (Intermediate to Advanced)</li>
+              <li class="list-group-item"><strong><a href="https://pramp.com">Pramp</a></strong> – Live mock interviews.
+                (Intermediate)</li>
+              <li class="list-group-item"><strong><a href="https://glassdoor.com">Glassdoor</a></strong> – Interview
+                experiences. (Intermediate)</li>
+              <li class="list-group-item"><strong><a href="https://www.youtube.com/@ByteByteGo">ByteByteGo</a></strong>
+                – System design explained. (Intermediate)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-<h2 id="quantfinance-specific-prep">Quant/Finance Specific Prep</h2>
+      <!-- Quant/Finance -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingQuant">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseQuant" aria-expanded="false" aria-controls="collapseQuant">
+            📈 Quant/Finance Specific Prep
+          </button>
+        </h2>
+        <div id="collapseQuant" class="accordion-collapse collapse" aria-labelledby="headingQuant"
+          data-bs-parent="#resourceAccordion">
+          <div class="accordion-body">
+            <ul class="list-group">
+              <li class="list-group-item"><strong>A Practical Guide to Quant Interviews</strong> by Zhou – Classic quant
+                Qs. (Advanced)</li>
+              <li class="list-group-item"><strong>Heard on The Street</strong> by Crack – Brain teasers for quant.
+                (Advanced)</li>
+              <li class="list-group-item"><strong><a href="https://www.janestreet.com/join-jane-street/prepare/">Jane
+                    Street Guide</a></strong> – Probability + market making. (Intermediate to Advanced)</li>
+              <li class="list-group-item"><strong><a
+                    href="https://github.com/jasonzliang/Interview-Primer-for-Quant-Finance">Quant Interview Primer
+                    (GitHub)</a></strong> – Resources for quant roles. (Advanced)</li>
+              <li class="list-group-item"><strong><a href="https://projecteuler.net">Project Euler</a></strong> –
+                Math-heavy coding problems. (Advanced)</li>
+              <li class="list-group-item"><strong><a href="https://arithmetic.zetamac.com">Zetamac</a></strong> – Mental
+                math tool. (Intermediate)</li>
+              <li class="list-group-item"><strong><a href="https://puzzling.stackexchange.com">StackExchange
+                    Puzzles</a></strong> – Logic problem community. (Intermediate to Advanced)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-<ul>
-  <li><em>A Practical Guide to Quantitative Finance Interviews</em> by Xinfeng Zhou – Collection of quant puzzles and math questions. (Advanced)</li>
-  <li><em>Heard on The Street</em> by Timothy Crack – Brain teasers and quant finance questions. (Advanced)</li>
-  <li><a href="https://www.janestreet.com/join-jane-street/prepare/">Jane Street – Markets Guide</a> – Probability and market-making intro. (Intermediate to Advanced)</li>
-  <li><a href="https://github.com/jasonzliang/Interview-Primer-for-Quant-Finance">Interview Primer for Quant Finance (GitHub)</a> – Technical interview prep for quant roles. (Advanced)</li>
-  <li><a href="https://projecteuler.net">Project Euler</a> – Programming problems requiring math and efficient algorithms. (Advanced)</li>
-  <li><a href="https://arithmetic.zetamac.com">Zetamac Mental Math Tool</a> – Speed math drills for quant interviews. (Intermediate)</li>
-  <li><a href="https://puzzling.stackexchange.com">StackExchange Puzzles</a> – Community of logic puzzles and brainteasers. (Intermediate to Advanced)</li>
-</ul>
+      <!-- Competitive Programming -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingCP">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseCP" aria-expanded="false" aria-controls="collapseCP">
+            🏁 General Competitive Programming
+          </button>
+        </h2>
+        <div id="collapseCP" class="accordion-collapse collapse" aria-labelledby="headingCP"
+          data-bs-parent="#resourceAccordion">
+          <div class="accordion-body">
+            <ul class="list-group">
+              <li class="list-group-item"><strong><a href="https://codeforces.com">Codeforces</a></strong> – Legendary
+                CP platform. (Intermediate to Advanced)</li>
+              <li class="list-group-item"><strong><a href="https://codechef.com">CodeChef</a></strong> – Practice +
+                contests. (Beginner to Advanced)</li>
+              <li class="list-group-item"><strong><a href="https://atcoder.jp">AtCoder</a></strong> – Math-centric
+                problems. (Intermediate to Advanced)</li>
+              <li class="list-group-item"><strong><a href="https://topcoder.com">TopCoder</a></strong> – The OG CP site.
+                (Intermediate to Advanced)</li>
+              <li class="list-group-item"><strong><a href="https://cp-algorithms.com">CP-Algorithms</a></strong> –
+                Explanations and code. (Intermediate to Advanced)</li>
+              <li class="list-group-item"><strong><a href="https://usaco.guide">USACO Guide</a></strong> – Structured CP
+                curriculum. (Beginner to Advanced)</li>
+              <li class="list-group-item"><strong><a href="https://hackerrank.com">HackerRank</a></strong> – Interview
+                and CP prep. (Beginner to Intermediate)</li>
+              <li class="list-group-item"><strong><a href="https://codeforces.com/edu">Codeforces EDU</a></strong> –
+                Structured learning. (Intermediate)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Quant, Interview, Finance, CP, etc. -->
 
-<hr />
+    </div>
 
-<h2 id="general-competitive-programming">General Competitive Programming</h2>
+    <footer class=\"mt-5 text-center\">
+      <!-- <p><a href="https://gitb.sgy.co.in/Coding-and-Training" target="_blank" class="btn btn-outline-dark btn-sm">📁
+          View Source on GitHub</a></p>
+      <hr> -->
+      <p class="mb-1">Open-source and community maintained. Found this useful? <a
+          href="https://gitb.sgy.co.in/Coding-and-Training" target="_blank">Contribute on GitHub</a> 💻</p>
+      <small>Developed by <a href="https://sr.sgy.co.in/Coding-and-Training" target="_blank">Sreetam Ganguly</a></small>
+    </footer>
 
-<ul>
-  <li><a href="https://codeforces.com">Codeforces</a> – Contests and problem archive with global community. (Intermediate to Advanced)</li>
-  <li><a href="https://codechef.com">CodeChef</a> – Competitive programming platform with practice series. (Beginner to Advanced)</li>
-  <li><a href="https://atcoder.jp">AtCoder</a> – Japanese contest platform with math-focused problems. (Intermediate to Advanced)</li>
-  <li><a href="https://topcoder.com">TopCoder</a> – Classic SRMs and competitive programming legacy. (Intermediate to Advanced)</li>
-  <li><a href="https://cp-algorithms.com">CP-Algorithms</a> – Theory and implementations for competitive programming. (Intermediate to Advanced)</li>
-  <li><a href="https://usaco.guide">USACO Guide</a> – Structured curriculum for competitive programming. (Beginner to Advanced)</li>
-  <li><a href="https://hackerrank.com">HackerRank</a> – Interview kits and problem categories. (Beginner to Intermediate)</li>
-  <li><a href="https://codeforces.com/edu">Codeforces EDU</a> – Structured lessons and topic-based problem sets. (Intermediate)</li>
-</ul>
+    <button id="backToTop" class="btn btn-primary position-fixed bottom-0 end-0 m-3"
+      style="display: none; z-index: 999;">⬆ Back to Top</button>
+  </div>
 
-<hr />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const themeToggle = document.getElementById('themeToggle');
+    const htmlTag = document.documentElement;
+    themeToggle.addEventListener('click', () => {
+      const currentTheme = htmlTag.getAttribute('data-bs-theme');
+      htmlTag.setAttribute('data-bs-theme', currentTheme === 'dark' ? 'light' : 'dark');
+    });
+  </script>
+  <script>
+    const backToTopBtn = document.getElementById("backToTop");
+    window.onscroll = function () {
+      backToTopBtn.style.display = window.scrollY > 300 ? "block" : "none";
+    };
+    backToTopBtn.onclick = function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+  </script>
+</body>
 
-<p>Each of these resources is highly regarded in its category. By leveraging a mix of these, students can cover all aspects of interview and competitive exam preparation – from coding and algorithms to aptitude, puzzles, and system design.</p>
-
-<p><strong>Happy learning and coding!</strong></p>
+</html>
